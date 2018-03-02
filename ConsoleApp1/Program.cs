@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp1
+namespace TeamPowered
 {
     class Program
     {
@@ -8,5 +8,13 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello World!");
         }
+    }
+
+    class Person
+    {
+        public string FirstName { get; set }
+        public string LastName { get; set }
+        public string Address { get; set; }
+
     }
 }
